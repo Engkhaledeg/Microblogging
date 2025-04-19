@@ -19,7 +19,9 @@ Optional:
 =========
 1	Docker (for containerized deployment)
 2	Azure Account (for using Azure Blob Storage)
+
 Setting Up the Application
+====================
 1. Clone the Repository
 Download the Repository and Extract Zip File
 2. Configure the Database
