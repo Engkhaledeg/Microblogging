@@ -10,13 +10,15 @@ Table of Contents
 6.	Troubleshooting
 Prerequisites
 Before setting up and running the application, ensure that you have the following installed:
-•	.NET 8 SDK (Download from here)
-•	SQL Server (Express or higher version, or use Docker)
-•	Visual Studio 2022 or later (or any IDE that supports .NET)
-•	Hangfire Dashboard (for managing background jobs)
+1	.NET 8 SDK (Download from here)
+2	SQL Server (Express or higher version, or use Docker)
+3	Visual Studio 2022 or later (or any IDE that supports .NET)
+4	Hangfire Dashboard (for managing background jobs)
+
 Optional:
-•	Docker (for containerized deployment)
-•	Azure Account (for using Azure Blob Storage)
+=========
+1	Docker (for containerized deployment)
+2	Azure Account (for using Azure Blob Storage)
 Setting Up the Application
 1. Clone the Repository
 Download the Repository and Extract Zip File
