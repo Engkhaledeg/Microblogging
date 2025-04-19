@@ -1,0 +1,17 @@
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\bin\Debug\net8.0\MicroBlog.Tests.Unit.deps.json
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\bin\Debug\net8.0\MicroBlog.Tests.Unit.runtimeconfig.json
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\bin\Debug\net8.0\MicroBlog.Tests.Unit.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\bin\Debug\net8.0\MicroBlog.Tests.Unit.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\bin\Debug\net8.0\MicroBlog.Core.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\bin\Debug\net8.0\MicroBlog.Core.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.csproj.AssemblyReference.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.AssemblyInfoInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.AssemblyInfo.cs
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.csproj.CoreCompileInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlo.3F23F1F4.Up2Date
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\refint\MicroBlog.Tests.Unit.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\MicroBlog.Tests.Unit.genruntimeconfig.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Tests.Unit\obj\Debug\net8.0\ref\MicroBlog.Tests.Unit.dll

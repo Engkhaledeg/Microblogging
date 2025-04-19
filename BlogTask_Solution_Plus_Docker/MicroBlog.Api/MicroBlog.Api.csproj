@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MicroBlog.Core\MicroBlog.Core.csproj" />
+    <ProjectReference Include="..\MicroBlog.Infrastructure\MicroBlog.Infrastructure.csproj" />
+    <ProjectReference Include="..\MicroBlog.Auth\MicroBlog.Auth.csproj" />
+    <PackageReference Include="Hangfire" Version="1.7.38" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.0" />
+  </ItemGroup>
+</Project>

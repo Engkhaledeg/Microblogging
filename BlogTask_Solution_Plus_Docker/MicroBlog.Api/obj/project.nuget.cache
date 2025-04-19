@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "OlBHP/xvOjs=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Api\\MicroBlog.Api.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://nuget.pkg.github.com/Vestcom/index.json.",
+      "libraryId": "SixLabors.ImageSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://nuget.pkg.github.com/Vestcom/index.json.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://nuget.pkg.github.com/Vestcom/index.json.",
+      "libraryId": "Hangfire"
+    }
+  ]
+}

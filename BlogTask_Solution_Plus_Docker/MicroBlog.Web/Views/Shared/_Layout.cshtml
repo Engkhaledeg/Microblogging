@@ -1,0 +1,29 @@
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MicroBlog</title>
+    <script src="~/js/site.js"></script>
+</head>
+<body>
+
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Posts" asp-action="Create">New Post</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+    </li>
+
+    <div class="navbar"> ... </div>
+    <div class="container">@RenderBody()</div>
+
+    <script>
+        window.apiBase = '@Configuration["ApiBaseUrl"]';
+    </script>
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>

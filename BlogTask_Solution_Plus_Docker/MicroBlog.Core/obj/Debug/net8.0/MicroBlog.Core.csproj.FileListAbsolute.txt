@@ -1,0 +1,11 @@
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\bin\Debug\net8.0\MicroBlog.Core.deps.json
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\bin\Debug\net8.0\MicroBlog.Core.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\bin\Debug\net8.0\MicroBlog.Core.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\MicroBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\MicroBlog.Core.AssemblyInfoInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\MicroBlog.Core.AssemblyInfo.cs
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\MicroBlog.Core.csproj.CoreCompileInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\MicroBlog.Core.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\refint\MicroBlog.Core.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\MicroBlog.Core.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Core\obj\Debug\net8.0\ref\MicroBlog.Core.dll

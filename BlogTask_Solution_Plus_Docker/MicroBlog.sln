@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Api", "MicroBlog.Api", "{2032483A-0F2C-4EF1-B5C9-DAB0B6388CAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Auth", "MicroBlog.Auth", "{F8BA53C1-38F9-41ED-ABA3-98984A6B6959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Core", "MicroBlog.Core", "{55302924-143D-4370-A193-E3EEEBC28F70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Infrastructure", "MicroBlog.Infrastructure", "{9090E5F1-E15A-4DEE-A5F0-28FB9DE3F662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Web", "MicroBlog.Web", "{80AFF93A-63DC-468B-BFA9-01CA35FC5A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Worker", "MicroBlog.Worker", "{601C3223-7611-49E9-AAFB-1B0FA807B32A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Tests.Unit", "MicroBlog.Tests.Unit", "{5F2FC6DD-3740-4223-9651-77329D116F6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Api", "MicroBlog.Api\MicroBlog.Api.csproj", "{3A2D33DE-F10B-4DD4-9F21-2ABDFDEACE7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Auth", "MicroBlog.Auth\MicroBlog.Auth.csproj", "{5A577A32-5C92-47C5-93C9-70ECA490CDF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Core", "MicroBlog.Core\MicroBlog.Core.csproj", "{ED55BA13-9D8B-40AB-AD05-F24B9CCC671F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Infrastructure", "MicroBlog.Infrastructure\MicroBlog.Infrastructure.csproj", "{8F9A3090-D0F9-4232-B833-F889F75C2956}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Tests.Unit", "MicroBlog.Tests.Unit\MicroBlog.Tests.Unit.csproj", "{F1DEF6E7-6695-4FBF-9B1F-9A1C50A05EBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Web", "MicroBlog.Web\MicroBlog.Web.csproj", "{A02C3FBD-3AA0-45D8-A279-EA592BD897EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Worker", "MicroBlog.Worker\MicroBlog.Worker.csproj", "{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A2D33DE-F10B-4DD4-9F21-2ABDFDEACE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2D33DE-F10B-4DD4-9F21-2ABDFDEACE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2D33DE-F10B-4DD4-9F21-2ABDFDEACE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2D33DE-F10B-4DD4-9F21-2ABDFDEACE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A577A32-5C92-47C5-93C9-70ECA490CDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A577A32-5C92-47C5-93C9-70ECA490CDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A577A32-5C92-47C5-93C9-70ECA490CDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A577A32-5C92-47C5-93C9-70ECA490CDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED55BA13-9D8B-40AB-AD05-F24B9CCC671F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED55BA13-9D8B-40AB-AD05-F24B9CCC671F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED55BA13-9D8B-40AB-AD05-F24B9CCC671F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED55BA13-9D8B-40AB-AD05-F24B9CCC671F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9A3090-D0F9-4232-B833-F889F75C2956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9A3090-D0F9-4232-B833-F889F75C2956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9A3090-D0F9-4232-B833-F889F75C2956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9A3090-D0F9-4232-B833-F889F75C2956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DEF6E7-6695-4FBF-9B1F-9A1C50A05EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DEF6E7-6695-4FBF-9B1F-9A1C50A05EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DEF6E7-6695-4FBF-9B1F-9A1C50A05EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DEF6E7-6695-4FBF-9B1F-9A1C50A05EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02C3FBD-3AA0-45D8-A279-EA592BD897EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02C3FBD-3AA0-45D8-A279-EA592BD897EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02C3FBD-3AA0-45D8-A279-EA592BD897EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02C3FBD-3AA0-45D8-A279-EA592BD897EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A2D33DE-F10B-4DD4-9F21-2ABDFDEACE7C} = {2032483A-0F2C-4EF1-B5C9-DAB0B6388CAF}
+		{5A577A32-5C92-47C5-93C9-70ECA490CDF3} = {F8BA53C1-38F9-41ED-ABA3-98984A6B6959}
+		{ED55BA13-9D8B-40AB-AD05-F24B9CCC671F} = {55302924-143D-4370-A193-E3EEEBC28F70}
+		{8F9A3090-D0F9-4232-B833-F889F75C2956} = {9090E5F1-E15A-4DEE-A5F0-28FB9DE3F662}
+		{F1DEF6E7-6695-4FBF-9B1F-9A1C50A05EBC} = {5F2FC6DD-3740-4223-9651-77329D116F6F}
+		{A02C3FBD-3AA0-45D8-A279-EA592BD897EF} = {80AFF93A-63DC-468B-BFA9-01CA35FC5A9B}
+		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D} = {601C3223-7611-49E9-AAFB-1B0FA807B32A}
+	EndGlobalSection
+EndGlobal

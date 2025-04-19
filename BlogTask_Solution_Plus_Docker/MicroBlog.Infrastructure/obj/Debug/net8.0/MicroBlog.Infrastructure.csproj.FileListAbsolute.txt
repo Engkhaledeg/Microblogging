@@ -1,0 +1,15 @@
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\bin\Debug\net8.0\MicroBlog.Infrastructure.deps.json
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\bin\Debug\net8.0\MicroBlog.Infrastructure.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\bin\Debug\net8.0\MicroBlog.Infrastructure.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\bin\Debug\net8.0\MicroBlog.Core.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\bin\Debug\net8.0\MicroBlog.Core.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlog.Infrastructure.csproj.AssemblyReference.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlog.Infrastructure.AssemblyInfoInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlog.Infrastructure.AssemblyInfo.cs
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlog.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlo.3496FD78.Up2Date
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlog.Infrastructure.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\refint\MicroBlog.Infrastructure.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\MicroBlog.Infrastructure.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Infrastructure\obj\Debug\net8.0\ref\MicroBlog.Infrastructure.dll

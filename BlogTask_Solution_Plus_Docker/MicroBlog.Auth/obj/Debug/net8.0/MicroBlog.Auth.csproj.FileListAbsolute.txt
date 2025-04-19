@@ -1,0 +1,12 @@
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\bin\Debug\net8.0\MicroBlog.Auth.deps.json
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\bin\Debug\net8.0\MicroBlog.Auth.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\bin\Debug\net8.0\MicroBlog.Auth.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\MicroBlog.Auth.csproj.AssemblyReference.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\MicroBlog.Auth.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\MicroBlog.Auth.AssemblyInfoInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\MicroBlog.Auth.AssemblyInfo.cs
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\MicroBlog.Auth.csproj.CoreCompileInputs.cache
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\MicroBlog.Auth.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\refint\MicroBlog.Auth.dll
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\MicroBlog.Auth.pdb
+D:\Work\Interview\Task\MicroBlog\MicroBlogSolution\MicroBlog.Auth\obj\Debug\net8.0\ref\MicroBlog.Auth.dll

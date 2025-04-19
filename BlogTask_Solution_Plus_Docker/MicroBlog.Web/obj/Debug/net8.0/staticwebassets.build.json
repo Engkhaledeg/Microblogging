@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "aZ0Om9CEzQAbTEJwYnVSkkUcFByDuK2s53gZeFDqnO4=",
+  "Source": "MicroBlog.Web",
+  "BasePath": "_content/MicroBlog.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MicroBlog.Web\\wwwroot",
+      "Source": "MicroBlog.Web",
+      "ContentRoot": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Web\\wwwroot\\",
+      "BasePath": "_content/MicroBlog.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Web\\wwwroot\\js\\site.js",
+      "SourceId": "MicroBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Web\\wwwroot\\",
+      "BasePath": "_content/MicroBlog.Web",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

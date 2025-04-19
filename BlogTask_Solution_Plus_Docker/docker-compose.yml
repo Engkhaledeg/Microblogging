@@ -1,0 +1,69 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: microblog_sql
+    environment:
+      SA_PASSWORD: "YourStrong@Password1"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    networks:
+      - microblog-net
+
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    container_name: microblog_azurite
+    ports:
+      - "10000:10000"
+      - "10001:10001"
+      - "10002:10002"
+    networks:
+      - microblog-net
+
+  api:
+    build:
+      context: .
+      dockerfile: MicroBlog.Api/Dockerfile
+    container_name: microblog_api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5001:5001"
+    depends_on:
+      - sqlserver
+      - azurite
+    networks:
+      - microblog-net
+
+  web:
+    build:
+      context: .
+      dockerfile: MicroBlog.Web/Dockerfile
+    container_name: microblog_web
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5002:5002"
+    depends_on:
+      - api
+    networks:
+      - microblog-net
+
+  worker:
+    build:
+      context: .
+      dockerfile: MicroBlog.Worker/Dockerfile
+    container_name: microblog_worker
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - sqlserver
+      - azurite
+    networks:
+      - microblog-net
+
+networks:
+  microblog-net:
+    driver: bridge

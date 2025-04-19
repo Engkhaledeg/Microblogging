@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WSMERg9M1guPuudWE4Num45U7JJY7/Bm8dwVGNvTeFs=",
+  "Source": "MicroBlog.Api",
+  "BasePath": "_content/MicroBlog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

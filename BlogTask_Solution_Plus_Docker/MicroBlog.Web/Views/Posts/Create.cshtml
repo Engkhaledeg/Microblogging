@@ -1,0 +1,86 @@
+@{
+    ViewData["Title"] = "Create New Post";
+}
+
+<h2>Create New Post</h2>
+
+<form id="postForm" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="Text" class="form-label">Post Text (Max 140 characters)</label>
+        <textarea class="form-control" id="Text" name="Text" rows="3" maxlength="140" required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label for="Image" class="form-label">Attach Image (JPG, PNG, WebP - Max 2MB)</label>
+        <input type="file" class="form-control" id="Image" name="Image" accept=".jpg,.jpeg,.png,.webp" />
+    </div>
+
+    <input type="hidden" id="Latitude" name="Latitude" />
+    <input type="hidden" id="Longitude" name="Longitude" />
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div id="status" class="mt-3 text-success"></div>
+
+@section Scripts {
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(position => {
+                document.getElementById("Latitude").value = position.coords.latitude;
+                document.getElementById("Longitude").value = position.coords.longitude;
+            });
+        }
+
+        document.getElementById("postForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const fileInput = document.getElementById("Image");
+            const status = document.getElementById("status");
+            status.textContent = "";
+
+            const file = fileInput.files[0];
+            if (file) {
+                const validTypes = ['image/jpeg', 'image/png', 'image/webp'];
+                if (!validTypes.includes(file.type)) {
+                    alert("Invalid image format.");
+                    return;
+                }
+
+                if (file.size > 2 * 1024 * 1024) {
+                    alert("File too large. Max size is 2MB.");
+                    return;
+                }
+            }
+
+            const formData = new FormData(form);
+
+            try {
+                const token = localStorage.getItem("jwt");
+                const response = await fetch("/api/posts", {
+                    method: "POST",
+                    headers: {
+                        Authorization: `Bearer ${token}`
+                    },
+                    body: formData
+                });
+
+                if (response.ok) {
+                    window.location.href = "/Posts/Timeline";
+
+                    //status.textContent = "Post submitted successfully!";
+                    //form.reset();
+                } else {
+                    const error = await response.text();
+                    alert("Submission failed: " + error);
+                }
+            } catch (err) {
+                alert("Unexpected error occurred.");
+                console.error(err);
+            }
+        });
+    });
+</script>
+}

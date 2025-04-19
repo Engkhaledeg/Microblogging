@@ -1,0 +1,14 @@
+<div id="timeline"></div>
+<script>
+const token = localStorage.getItem('token');
+fetch('/api/posts', { headers: { Authorization: 'Bearer ' + token } })
+  .then(res => res.json())
+  .then(posts => {
+    const w = window.innerWidth;
+    posts.forEach(p => {
+      const img = p.WebPImageUrl || p.OriginalImageUrl;
+      // pick best dimension suffix based on w
+      // append post markup to #timeline
+    });
+  });
+</script>
