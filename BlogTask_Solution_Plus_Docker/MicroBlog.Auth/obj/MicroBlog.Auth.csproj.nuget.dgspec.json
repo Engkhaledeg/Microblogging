@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Auth\\MicroBlog.Auth.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Auth\\MicroBlog.Auth.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Auth\\MicroBlog.Auth.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Auth\\MicroBlog.Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Auth\\MicroBlog.Auth.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Auth\\MicroBlog.Auth.csproj",
         "projectName": "MicroBlog.Auth",
-        "projectPath": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Auth\\MicroBlog.Auth.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Auth\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Auth\\MicroBlog.Auth.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Auth\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\nuget.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -49,6 +54,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
@@ -63,11 +72,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "WSMERg9M1guPuudWE4Num45U7JJY7/Bm8dwVGNvTeFs=",
+  "Hash": "MLUbKmkVu6A7mxcZMlJsVofE6WrMThgGOUE3fQAGG5M=",
   "Source": "MicroBlog.Api",
   "BasePath": "_content/MicroBlog.Api",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Auth\\MicroBlog.Auth.csproj",
+      "Version": 2,
+      "Source": "MicroBlog.Auth",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

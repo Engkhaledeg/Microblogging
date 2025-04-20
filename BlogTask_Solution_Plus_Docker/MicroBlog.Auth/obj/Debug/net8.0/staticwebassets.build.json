@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "C7ZbQd0X+idhwsSYVeQM6EnnN+UB9ddN6HY19oY5FkQ=",
+  "Source": "MicroBlog.Auth",
+  "BasePath": "_content/MicroBlog.Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

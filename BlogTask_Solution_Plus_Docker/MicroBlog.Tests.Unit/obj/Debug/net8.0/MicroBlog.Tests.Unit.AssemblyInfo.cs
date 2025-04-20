@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroBlog.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d2670a46c170725649ca7705cfa08d2ca246a95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5383764cdf8fd49ec8613963a540ce62c943cf14")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroBlog.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroBlog.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

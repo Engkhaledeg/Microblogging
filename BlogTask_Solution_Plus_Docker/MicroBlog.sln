@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Web", "MicroBlog.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.Worker", "MicroBlog.Worker\MicroBlog.Worker.csproj", "{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroBlog.Integration.Tests", "MicroBlog.Integration.Tests", "{C4E5F52A-BFDA-4E5D-A4A4-86B275C1FDF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroBlog.IntegrationTests", "MicroBlog.Integration.Tests\MicroBlog.IntegrationTests.csproj", "{8AEE99E4-3903-4F4A-AA13-7EB4F1787465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,10 @@ Global
 		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEE99E4-3903-4F4A-AA13-7EB4F1787465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEE99E4-3903-4F4A-AA13-7EB4F1787465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEE99E4-3903-4F4A-AA13-7EB4F1787465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEE99E4-3903-4F4A-AA13-7EB4F1787465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,5 +85,6 @@ Global
 		{F1DEF6E7-6695-4FBF-9B1F-9A1C50A05EBC} = {5F2FC6DD-3740-4223-9651-77329D116F6F}
 		{A02C3FBD-3AA0-45D8-A279-EA592BD897EF} = {80AFF93A-63DC-468B-BFA9-01CA35FC5A9B}
 		{36BA0459-CCF8-426B-81C2-79BB5EBF6E9D} = {601C3223-7611-49E9-AAFB-1B0FA807B32A}
+		{8AEE99E4-3903-4F4A-AA13-7EB4F1787465} = {C4E5F52A-BFDA-4E5D-A4A4-86B275C1FDF8}
 	EndGlobalSection
 EndGlobal

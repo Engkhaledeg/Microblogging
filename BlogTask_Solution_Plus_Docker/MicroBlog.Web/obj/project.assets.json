@@ -319,20 +319,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Web\\MicroBlog.Web.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Web\\MicroBlog.Web.csproj",
       "projectName": "MicroBlog.Web",
-      "projectPath": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Web\\MicroBlog.Web.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Interview\\Task\\MicroBlog\\MicroBlogSolution\\MicroBlog.Web\\obj\\",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Web\\MicroBlog.Web.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\Microblogging\\BlogTask_Solution_Plus_Docker\\MicroBlog.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\nuget.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -384,7 +390,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
